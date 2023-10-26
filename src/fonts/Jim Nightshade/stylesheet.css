@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Jim Nightshade';
+    src: url('JimNightshade-Regular.eot');
+    src: local('Jim Nightshade'), local('JimNightshade-Regular'),
+        url('JimNightshade-Regular.eot?#iefix') format('embedded-opentype'),
+        url('JimNightshade-Regular.woff2') format('woff2'),
+        url('JimNightshade-Regular.woff') format('woff'),
+        url('JimNightshade-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

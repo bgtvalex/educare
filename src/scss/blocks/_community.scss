@@ -1,0 +1,181 @@
+.community {
+  margin-bottom: 100px;
+}
+
+.community__row {
+  height: 780px;
+  position: relative;
+	overflow: hidden;
+}
+
+.community__desc {
+  max-width: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.community__title {
+  margin-top: 63px;
+  margin-bottom: 22px;
+  width: 500px;
+  text-align: center;
+}
+
+.community__text {
+  width: 500px;
+  margin-bottom: 63px;
+  text-align: center;
+}
+
+.community__btn {
+  position: relative;
+  padding: 12px 52px;
+  background-color: var(--color-3);
+  border-radius: 10px;
+
+  color: var(--text-3);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  &:hover {
+    opacity: .9;
+  }
+
+  &:active {
+    top: 1px;
+  }
+}
+
+.community__picture {
+  position: absolute;
+  bottom: 0;
+  right: -50px;
+}
+
+.community__img {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.img-01 {
+	left: 597px;
+}
+
+.img-02 {
+	top: 165px;
+	right: 22px;
+	z-index: 3;
+}
+
+.img-03 {
+	top: 401px;
+	left: 22px;
+	z-index: 3;
+}
+
+.img-04 {
+	top: 535px;
+	left: 317px;
+	z-index: 3;
+}
+
+@media (max-width: 1075px) {
+  .community__picture {
+    right: -92px;
+  }
+}
+
+@media (max-width: 1023px) {
+
+  .img-01 {
+    left: 470px;
+  }
+
+  .img-04 {
+    left: 150px;
+  }
+}
+
+@media (max-width: 767px) {
+  .community {
+    margin-bottom: 100px;
+  }
+
+  .community__users {
+    z-index: 3;
+    position: absolute;
+    top: 328px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+  }
+
+  .img-01 {
+    top: 75px;
+    left: 50px;
+  }
+
+  .img-02 {
+    top: 30px;
+    left: 120px;
+  }
+
+  .img-03 {
+    top: 15px;
+    left: 195px;
+  }
+
+  .img-04 {
+    top: 145px;
+    left: 0px;
+  }
+
+  .community__picture {
+    bottom: 30px;
+  }
+}
+
+@media (max-width: 424px) {
+  .community__row {
+    height: 645px;
+  }
+
+  .community__picture {
+    bottom: 0px;
+  }
+
+  .community__title {
+    width: unset;
+  }
+  .community__btn {
+    font-size: 16px;
+  }
+
+  .community__img {
+    width: 50px;
+  }
+
+  .img-01 {
+    top: 40px;
+    left: 40px;
+  }
+
+  .img-02 {
+    top: 20px;
+    left: 70px;
+  }
+
+  .img-03 {
+    top: 0px;
+    left: 120px;
+  }
+
+  .img-04 {
+    top: 70px;
+    left: 0px;
+  }
+}

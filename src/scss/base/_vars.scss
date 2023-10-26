@@ -1,0 +1,26 @@
+:root {
+	--container-width: 1080px;
+	--container-padding: 15px;
+
+	--font-main: 'Poppins', sans-serif;
+	--font-accent: 'Jim Nightshade', serif;
+
+	--text-1: #000;
+	--text-2: rgba(0, 0, 0, 0.46);
+	--text-3: #fff;
+	--text-footer: #6C6C6C;
+	--text-copyright: #7D7A74;
+
+
+	--color-1: #682C0E;
+	--color-2: #C24914;
+	--color-3: #FC8621;
+	--color-4: #DAC0A3;
+	--color-5: #F9E0AE;
+	--color-6: #EADBC8;
+}
+
+.dark {
+    --page-bg: #252526;
+    --text-color: #fff;
+}
