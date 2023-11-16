@@ -1,5 +1,7 @@
 # project: Educare
 
+* [demo](https://bgtvalex.github.io/educare/)
+
 ### Technologies:
 * HTML, CSS, SASS, JS, Gulp.
 
